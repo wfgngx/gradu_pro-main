@@ -3,6 +3,8 @@
 // import 'package:gradu_pro/screens/HomeScreen.dart';
 // import 'package:gradu_pro/screens/PatientInformation.dart';
 // import 'package:gradu_pro/screens/SignUp.dart';
+// import 'package:gradu_pro/screens/bottom_nav_bar_screens/bottom_nav_bar_core.dart';
+// import 'package:gradu_pro/screens/splashScreen.dart';
 //
 // class LogIn extends StatefulWidget {
 //   // const LogIn({super.key});
@@ -170,7 +172,7 @@
 //                 Navigator.pushReplacement(
 //                     context,
 //                     MaterialPageRoute(
-//                       builder: (context) => patientInfo(),
+//                       builder: (context) => const BottomNavBarScreens(),
 //                     ));
 //               },
 //               child: Container(
@@ -253,29 +255,28 @@
 //               height: 16,
 //             ),
 //             Container(
-//
-//               child: Row(mainAxisAlignment: MainAxisAlignment.spaceAround,
+//               child: Row(
+//                 mainAxisAlignment: MainAxisAlignment.spaceAround,
 //                 children: [
 //                   Container(
 //                     width: 50,
 //                     height: 50,
 //                     child: InkWell(
-//                       child: Image.asset('images/iconButton/img.png'),
-//                     ),
-//                   ),
-//
-//                   Container(
-//                     width: 50,
-//                     height: 50,
-//                     child: InkWell(
-//                       child: Image.asset('images/iconButton/img_1.png'),
+//                       child: Image.asset('assets/images/iconButton/img.png'),
 //                     ),
 //                   ),
 //                   Container(
 //                     width: 50,
 //                     height: 50,
 //                     child: InkWell(
-//                       child: Image.asset('images/iconButton/img_2.png'),
+//                       child: Image.asset('assets/images/iconButton/img_1.png'),
+//                     ),
+//                   ),
+//                   Container(
+//                     width: 50,
+//                     height: 50,
+//                     child: InkWell(
+//                       child: Image.asset('assets/images/iconButton/img_2.png'),
 //                     ),
 //                   ),
 //                 ],

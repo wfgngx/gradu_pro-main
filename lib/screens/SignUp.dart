@@ -351,7 +351,7 @@
 //                         width: 40,
 //                         height: 40,
 //                         child: InkWell(
-//                           child: Image.asset('images/iconButton/img.png'),
+//                           child: Image.asset('assets/images/iconButton/img.png'),
 //                         ),
 //                       ),
 //
@@ -359,14 +359,14 @@
 //                         width: 40,
 //                         height: 40,
 //                         child: InkWell(
-//                           child: Image.asset('images/iconButton/img_1.png'),
+//                           child: Image.asset('assets/images/iconButton/img_1.png'),
 //                         ),
 //                       ),
 //                       Container(
 //                         width: 40,
 //                         height: 40,
 //                         child: InkWell(
-//                           child: Image.asset('images/iconButton/img_2.png'),
+//                           child: Image.asset('assets/images/iconButton/img_2.png'),
 //                         ),
 //                       ),
 //                     ],

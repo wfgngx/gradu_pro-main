@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:gradu_pro/onbording/Oboarding.dart';
 import 'package:gradu_pro/screens/bottom_nav_bar_screens/bottom_nav_bar_core.dart';
 import 'package:gradu_pro/screens/patient_form.dart';
+import 'package:gradu_pro/screens/splashScreen.dart';
 
 
 void main() {
@@ -23,7 +25,7 @@ class MyApp extends StatelessWidget {
     builder: (_ , child) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:  PatientInfo(),
+      home:  SplashScreen(),
     );
   });
 }}
